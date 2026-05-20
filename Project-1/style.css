@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.head-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+.add-me-button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(53, 131, 53);
+  cursor: pointer;
+}
+
+.add-me-button:hover {
+  background-color: rgb(5, 59, 5);
+}
